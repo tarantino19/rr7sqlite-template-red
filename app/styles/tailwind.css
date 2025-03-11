@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		/* --font-sans: here if you have one */
+		/* --font-mono: here if you got it... */
+
+		/* prefixed with foreground because it should look good on the background */
+		--foreground-destructive: 345 82.7% 40.8%;
+
+		--background: 231 100% 99%;
+		--foreground: 231 84% 4.9%;
+
+		--muted: 231 40% 93%;
+		--muted-foreground: 231 16.3% 30%;
+
+		--popover: 231 100% 99%;
+		--popover-foreground: 231 84% 4.9%;
+
+		--card: 231 100% 99%;
+		--card-foreground: 231 84% 4.9%;
+
+		/* Rest of the colors remain the same */
+		--border: 231 31.8% 91.4%;
+		--input: 231 31.8% 91.4%;
+		--input-invalid: 0 84.2% 60.2%;
+
+		--primary: 231 47.4% 11.2%;
+		--primary-foreground: 231 40% 98%;
+
+		--secondary: 231 20% 83%;
+		--secondary-foreground: 231 47.4% 11.2%;
+
+		--accent: 231 40% 90%;
+		--accent-foreground: 231 47.4% 11.2%;
+
+		--destructive: 0 70% 50%;
+		--destructive-foreground: 231 40% 98%;
+
+		--ring: 231 20.2% 65.1%;
+
+		--radius: 0.5rem;
+	}
+
+	/* Dark mode remains unchanged */
+	.dark {
+		/* ... dark mode colors ... */
+	}
+}
